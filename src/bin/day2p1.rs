@@ -1,5 +1,5 @@
 fn main() {
-    let input = include_str!("day2.txt")
+    let input = include_str!("../input/day2.txt")
         .split('\n')
         .filter(|f| !f.is_empty())
         .collect::<Vec<_>>();

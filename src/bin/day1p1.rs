@@ -1,5 +1,5 @@
 fn main() {
-    let (mut first, mut second) = include_str!("day1.txt")
+    let (mut first, mut second) = include_str!("../input/day1.txt")
         .split('\n')
         .filter(|n| !n.is_empty())
         .map(|n| {

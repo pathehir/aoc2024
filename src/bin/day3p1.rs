@@ -26,7 +26,7 @@ fn parse_file(s: &str) -> IResult<&str, Vec<(i32, i32)>> {
 fn main() {
     println!(
         "{}",
-        parse_file(include_str!("day3.txt"))
+        parse_file(include_str!("../input/day3.txt"))
             .unwrap()
             .1
             .iter()

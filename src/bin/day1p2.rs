@@ -1,5 +1,5 @@
 fn main() {
-    let (first, second) = include_str!("day1.txt")
+    let (first, second) = include_str!("../input/day1.txt")
         .split('\n')
         .filter(|n| !n.is_empty())
         .map(|n| {
